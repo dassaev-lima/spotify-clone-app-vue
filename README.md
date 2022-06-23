@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://github.com/dassaev-lima/spotify-clone-app-vue/blob/master/src/assets/spotify-vue-clone-black.png" alt="Logomarca do app spotify vue clone" width="auto" heigth="90px"/>
-  <h1>Interfacedo do aplicativo Spotify vue clone </h1>
+  <h1>Interface do aplicativo Spotify vue clone </h1>
   <span>Um aplicatgivo web clone do spotify em VueJS, e estilizado com o framework Tailwindcss</span>
 </div>
   
