@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-stone-900 text-white absolute inset-x-0 bottom-0 h-25 p-4 flex flex-row justify-center items-center">
+  <div class="w-full bg-stone-900 text-white fixed inset-x-0 bottom-0 h-25 p-4 flex flex-row justify-center items-center">
     <div class="shrink-0 w-80 flex space-x-4 justify-center items-center">
       <img src="https://i.scdn.co/image/ab67616d00004851f4e7821b9cda8226bb7eab2c" 
         data-testid="cover-art-image" alt="" class="object-contain">
