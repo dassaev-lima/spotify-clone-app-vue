@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col w-72 h-screen p-6 gap-8" style="background-color:#000">
+    <div class="flex flex-col w-72 h-screen p-6 gap-8 invisible md:visible" style="background-color:#000">
         <ul class="flex flex-col gap-4">
             <li>
                 <img src="../assets/spotify-vue-clone-white.png" alt="" style="heigth=2.5rem;width=100%;max-width:140px;">
