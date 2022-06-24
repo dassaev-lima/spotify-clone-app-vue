@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="flex flex-row w-full sm:space-x-72">
+    <div class="flex flex-row w-full md:space-x-72">
       <SideBar/>
       <!-- <h2 class="text-white font-semibold text-lg">Programas para conhecer</h2> -->
       <div class="grow h-screen flex flex-row flex-wrap bg-gradient gap-4 p-8">
