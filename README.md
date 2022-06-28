@@ -41,7 +41,7 @@
 ```
 
 ## Mostre seu apoio
-Dar uma :star: se este projeto te ajudou!
+Dá uma :star: se este projeto te ajudou!
 
 
 
