@@ -4,7 +4,7 @@
       <SideBar/>
       <!-- <h2 class="text-white font-semibold text-lg">Programas para conhecer</h2> -->
       <div class="flex flex-col flex-nowrap bg-gradient-to-b from-neutral-800 to-neutral-900 gap-4 p-8 
-      grow h-auto space-y-6">
+      grow h-auto space-y-6 pb-40">
         <h2 class="text-white font-semibold text-3xl">Boa tarde</h2>
         <div class="flex flex-row flex-wrap gap-8">
           <HorizontalCard v-for="card,index in 6" :key="index"/>
