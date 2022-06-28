@@ -1,15 +1,39 @@
 <template>
-    <div class="flex flex-col h-auto w-1/2 md:w-1/3 lg:w-56 pt-4 pr-4 pl-4 pb-6 bg-card rounded-md space-y-1 grow ">
+    <div class="flex flex-col h-auto w-1/2 md:w-1/3 lg:w-56 pt-4 pr-4 pl-4 pb-6 bg-card rounded-md grow"
+    ref="cardVertical"
+    @mouseover="showIconPlay = !showIconPlay" @mouseout="showIconPlay = !showIconPlay">
             <img src="https://thisis-images.scdn.co/37i9dQZF1DZ06evO0X1Nwj-default.jpg" alt="Anderson Freire" class="rounded-md">
-            <span class="text-lg font-semibold text-white pt-4">Stand up</span>
+            <div v-if="hasIconPlay" class="relative bottom-16 left-40 h-14 w-14 bg-green-500 rounded-full text-black flex justify-center
+            items-center shadow-xl hide transition-all pl-1 hide">
+                <img src="../assets/icon-play.png" alt="Ícon play" class="w-6 h-6">
+            </div>
+            <span v-if="hasIconPlay" class="text-lg font-semibold text-white" style="margin-top:-2rem">Stand up</span>
+            <span v-else class="text-lg font-semibold text-white mt-6" >Stand up</span>
             <span class="text-base font-normal text-stone-400">Stand up</span>
-    </div>
+    </div>     
 </template>
 <script>
 export default {
     name: "VerticalCard",
     data() {
-        return {}
+        return {
+            showIconPlay: false,
+        }
+    },
+    props: ["hasIconPlay"],
+    methods: {
+        toggleIconPlay() {
+            if (this.showIconPlay) {
+                this.$refs.cardVertical.children[1].classList.remove("hide");
+            } else {      
+                this.$refs.cardVertical.children[1].classList.add("hide");
+            }
+        }
+    },
+    watch: {
+        showIconPlay() {
+            this.toggleIconPlay();
+        }
     }
 }
 </script>
@@ -21,4 +45,11 @@ export default {
     background-color: #282828 !important;
     transition: background-color 0.5s ease;
 }
+
+.hide {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s linear;
+}
+
 </style>
