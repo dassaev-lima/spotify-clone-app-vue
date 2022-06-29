@@ -42,23 +42,23 @@
             </li>
         </ul>
         <hr class="h-px bg-stone-100">
-        <ul class="flex flex-col gap-4">
-            <li class="flex flex-row flex-nowrap gap-4 items-center">
+        <ul class="flex flex-col gap-3">
+            <li class="flex flex-row flex-nowrap items-center">
                 <a href="" class="text-stone-300 hover:text-white no-underline text-sm"> 
                     Minha playlist n° 3
                 </a>
             </li>
-            <li class="flex flex-row flex-nowrap gap-4 items-center">
+            <li class="flex flex-row flex-nowrap items-center">
                 <a href="" class="text-stone-300 hover:text-white no-underline text-sm"> 
                     GURU RAP MAROMBA PLAYLIST (RAP)
                 </a>
             </li>
-            <li class="flex flex-row flex-nowrap gap-4 items-center">
+            <li class="flex flex-row flex-nowrap items-center">
                 <a href="" class="text-stone-300 hover:text-white no-underline text-sm"> 
                     Minha playlist n° 2
                 </a>
             </li>
-            <li class="flex flex-row flex-nowrap gap-4 items-center">
+            <li class="flex flex-row flex-nowrap items-center">
                 <a href="" class="text-stone-300 hover:text-white no-underline text-sm"> 
                     Músicas de academia
                 </a>
