@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="flex flex-row w-full md:space-x-72">
+    <div class="flex flex-row w-full md:space-x-64">
       <SideBar/>
       <router-view></router-view>
     </div>
