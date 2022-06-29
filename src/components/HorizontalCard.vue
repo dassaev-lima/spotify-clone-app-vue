@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-row grow items-center justify-start space-x-8 h-20 shrink-0 sm:w-full md:w-5/6 lg:w-1/4 
+    <div class="flex flex-row grow items-center justify-start space-x-4 h-20 shrink-0 sm:w-full md:w-5/6 lg:w-1/4 
     rounded-md bg-neutral-700 hover:bg-neutral-500  transition-colors duration-300 pr-4"
     ref="cardHorizontal"
     @mouseover="showIconPlay = !showIconPlay" @mouseout="showIconPlay = !showIconPlay">
