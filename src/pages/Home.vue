@@ -11,7 +11,7 @@
           </h3>
         </a>
         <div class="flex flex-row flex-wrap gap-8">
-          <VerticalCard v-for="card,index in 5" :key="index" :hasIconPlay="false"/>
+          <VerticalCard v-for="card,index in 6" :key="index" :hasIconPlay="false"/>
         </div>
         <a href="#">
           <h3 class="text-white font-semibold text-2xl">
@@ -19,7 +19,7 @@
           </h3>
         </a>
          <div class="flex flex-row flex-wrap gap-8">
-          <VerticalCard v-for="card,index in 5" :key="index" :hasIconPlay="true"/>
+          <VerticalCard v-for="card,index in 6" :key="index" :hasIconPlay="true"/>
         </div>
     </div>   
 </template>

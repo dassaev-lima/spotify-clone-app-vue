@@ -1,11 +1,11 @@
 <template>
-    <div class="flex flex-col h-auto w-1/2 md:w-1/3 lg:w-56 pt-4 pr-4 pl-4 pb-6 bg-card rounded-md grow"
+    <div class="flex flex-col h-auto w-56 pt-4 pr-4 pl-4 pb-6 bg-card rounded-md"
     ref="cardVertical"
     @mouseover="showIconPlay = !showIconPlay" @mouseout="showIconPlay = !showIconPlay">
             <img src="https://thisis-images.scdn.co/37i9dQZF1DZ06evO0X1Nwj-default.jpg" alt="Anderson Freire" class="rounded-md">
-            <div v-if="hasIconPlay" class="relative bottom-16 left-40 h-14 w-14 bg-green-500 rounded-full text-black flex justify-center
+            <div v-if="hasIconPlay" class="relative bottom-16 left-24 h-12 w-12 bg-green-500 rounded-full text-black flex justify-center
             items-center shadow-xl hide transition-all pl-1 hide">
-                <img src="../assets/icon-play.png" alt="Ícon play" class="w-6 h-6">
+                <img src="../assets/icon-play.png" alt="Ícon play" class="w-5 h-5">
             </div>
             <span v-if="hasIconPlay" class="text-lg font-semibold text-white" style="margin-top:-2rem">Stand up</span>
             <span v-else class="text-lg font-semibold text-white mt-6" >Stand up</span>
