@@ -3,7 +3,7 @@
     ref="cardVertical"
     @mouseover="showIconPlay = !showIconPlay" @mouseout="showIconPlay = !showIconPlay">
             <img src="https://thisis-images.scdn.co/37i9dQZF1DZ06evO0X1Nwj-default.jpg" alt="Anderson Freire" class="rounded-md">
-            <div v-if="hasIconPlay" class="relative bottom-16 left-24 h-12 w-12 bg-green-500 rounded-full text-black flex justify-center
+            <div v-show="hasIconPlay" class="relative bottom-16 left-32 h-12 w-12 bg-green-500 rounded-full text-black flex justify-center
             items-center shadow-xl hide transition-all pl-1 hide">
                 <img src="../assets/icon-play.png" alt="Ícon play" class="w-5 h-5">
             </div>
