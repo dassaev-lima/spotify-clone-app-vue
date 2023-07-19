@@ -5,11 +5,11 @@
 </div>
   
 ## :clipboard: Índice
-- [Screen](#computer-telas)
-- [About project](#spiral_notepadabout-project)
+- [Screen](#computer-screens)
+- [About project](#spiral_notepad-about-project)
 - [Used tecnologies](#hammer_and_wrench-used-tecnologies)
 - [Run](#rocket-run)
-- - [Requirements](#pré-requisitos)
+- - [Requirements](#requirements)
 - [Show your help](#show-your-help)
 
 ## :computer: Screens
