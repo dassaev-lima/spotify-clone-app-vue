@@ -1,47 +1,49 @@
 <div align="center">
   <img src="https://github.com/dassaev-lima/spotify-clone-app-vue/blob/master/src/assets/spotify-vue-clone-black.png" alt="Logomarca do app spotify vue clone" width="auto" heigth="90px"/>
-  <h1>Interface do aplicativo Spotify vue clone </h1>
-  <span>Um aplicativo web clone do spotify em VueJS, e estilizado com o framework Tailwindcss</span>
+  <h1>A spotify frontend clone using vue and tailwind</h1>
+  <span>A spotify clone web app in VueJS, and styled with the Tailwindcss framework</span>
 </div>
   
 ## :clipboard: Índice
-- [Telas](#computer-telas)
-- [Sobre o projeto](#spiral_notepadsobre-o-projeto)
-- [Tecnologias utilizadas](#hammer_and_wrench-tecnologias-utilizadas)
-- [Rodando o projeto](#rocket-rodando-o-projeto)
-- - [Pré-requisitos](#pré-requisitos)
-- [Mostre seu apoio](#mostre-seu-apoio)
+- [Screen](#computer-telas)
+- [About project](#spiral_notepadabout-project)
+- [Used tecnologies](#hammer_and_wrench-used-tecnologies)
+- [Run](#rocket-run)
+- - [Requirements](#pré-requisitos)
+- [Show your help](#show-your-help)
 
-      
-## :computer: Telas
-## :spiral_notepad:Sobre o projeto
+## :computer: Screens
 
-> Desenvolvido para práticar VueJS e Tailwindcss, o spotify vue clone é uma réplica do aplicativo [Spotify](https://www.spotify.com/br/ "link para o site do spotify"), Além de compor o meu potfólio pessoal. Qualquer feedback sobre estrutura, código ou funcionalidade que possa melhorar o projeto será bem vindo.
+## :spiral_notepad: About project
 
-## 	:hammer_and_wrench: Tecnologias utilizadas
- - <img src="https://github.com/get-icon/geticon/raw/master/icons/vue.svg" alt="Vue.js" width="16px" height="16px" style="max-width: 100%;"> **VueJs** Single Page Aplication
- - <img src="https://github.com/get-icon/geticon/raw/master/icons/vite.svg" alt="Vite" width="16px" height="16px" style="max-width: 100%;"> **Vite** Estrutura do projeto
- - <img src="https://github.com/get-icon/geticon/raw/master/icons/tailwindcss-icon.svg" alt="Tailwind CSS" width="21px" height="21px" style="max-width: 100%;"> **Tailwindcss** Estilização das páginas
-## 	:rocket: Rodando o projeto
-> Para que a aplicação seja executada de forma correta é importante que você possua os pré-requisitos e siga a sequência de passos listados abaixo.
+> Developed to practice VueJS and Tailwindcss, the spotify vue clone is a replica of the [Spotify](https://www.spotify.com/br/ "link to the spotify site") application, in addition to composing my personal portfolio.
 
-### Pré-requisitos
- - Git
- - NodeJs
- - Npm
+## :hammer_and_wrench: Used tecnologies
 
-> Após ter atendido os requistos clone o projeto para sua máquina e acesse o diretório onde o salvou e execute.
+- <img src="https://github.com/get-icon/geticon/raw/master/icons/vue.svg" alt="Vue.js" width="16px" height="16px" style="max-width: 100%;"> **VueJs** Single Page Aplication
+- <img src="https://github.com/get-icon/geticon/raw/master/icons/vite.svg" alt="Vite" width="16px" height="16px" style="max-width: 100%;"> **Vite** Project structure
+- <img src="https://github.com/get-icon/geticon/raw/master/icons/tailwindcss-icon.svg" alt="Tailwind CSS" width="21px" height="21px" style="max-width: 100%;"> **Tailwindcss** Styles
+
+## :rocket: Run
+
+> For the application to run correctly, it is important that you have the prerequisites and follow the sequence of steps listed below.
+
+### Requirements
+
+- Git
+- NodeJs
+- Npm
+
+> After meeting the requirements, clone the project to your machine and access the directory where you saved it and run it.
 
 ```bash
-# instala todas as dependências
+# install dependencies
  npm install
 
-# sobe o servidor local
+# server up
  npm run dev
 ```
 
-## Mostre seu apoio
-Dá uma :star: se este projeto te ajudou!
+## Show your help
 
-
-
+Give me a :star: if You liked this project!
